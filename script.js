@@ -1,5 +1,4 @@
 
-// АВТОРИЗАЦИЯ
 
 const loginForm = document.getElementById("login-form");
 const passwordInput = document.getElementById("password");
@@ -32,8 +31,6 @@ loginForm.addEventListener("submit", function(event) {
 });
 
 
-// ПЕРЕКЛЮЧЕНИЕ СТРАНИЦ
-
 const pages = [
     "question-page",
     "no-page",
@@ -44,7 +41,6 @@ const pages = [
 
 function showPage(pageName) {
 
-    // Скрываем все страницы
 
     pages.forEach(function(page) {
 
@@ -53,14 +49,11 @@ function showPage(pageName) {
     });
 
 
-    // Показываем нужную страницу
-
     document.getElementById(pageName).hidden = false;
 
 }
 
 
-// ОБРАБОТКА КНОПОК
 
 const buttons = document.querySelectorAll("[data-page]");
 
