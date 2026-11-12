@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    min-height: 100%;
+}
+
+#no-page {
+    position: fixed;
+    inset: 0;
+
+    width: 100%;
+    height: 100vh;
+
+    background-image: url("./ад.gif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#no-page img {
+    width: 500px;
+    position:relative;
+
+    top:100px;
+
+    display: block;
+    margin: 20px auto;
+
+    object-fit: contain;
+    border-radius: 18%;
+}
+
+#no-page button {
+    background-color: #c52f06;
+    color: rgb(63, 2, 2);
+
+    font-size: 15px;
+    padding: 15px 35px;
+
+    border: 2px solid rgb(105, 4, 4);
+    border-radius: 30px;
+
+    cursor: pointer;
+
+    position: relative;
+    left: 480px;
+    top: 100px;
+
+}
+
+#no-page button:hover {
+    background-color: #f361a5;
+    color:rgb(248, 138, 169)
+}
+
+#no-page h1 {
+    position: relative;
+    left: 500px;
+    border:#f361a5;
+    border-radius:20%;
+    top: 100px;
+    width: 10p;
+}
+
+body {
+    margin: 0;
+    min-height:100vh;
+    background-image: url("/фон2.png")
+
+
+}
+
+#login-screen h1 {
+    font-family: Trattatello, fantasy, cursive;
+    
+
+    position: relative;
+    left:160px;
+    top: 190px;
+    font-size: 400%;
+
+     color: #ffc1d3;
+
+    text-shadow:
+        0 0 5px #ff8bac,
+        0 0 15px #f45e88,
+        0 0 30px #ff2f4b;
+}
+
+#login-screen button {
+    position: relative;
+    left:300px;
+    font-size: 20px;
+    top: 330px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+#login-screen p {
+    position: relative;
+    left:420px;
+    top: 190px;
+    color:#df567d;
+    font-size:200%
+}
+
+#login-screen p1 {
+    position: relative;
+    left:165px;
+    top:290px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#login-form input {
+    position:relative;
+    left:490px;
+    font-size:140%;
+    top:250px;
+
+
+}
+
+#question-page h1 {
+position: relative;
+left:150px;
+font-size: 400%;
+top:200px;
+ color: #ffc1d3;
+
+    text-shadow:
+        0 0 5px #ff8bac,
+        0 0 15px #f45e88,
+        0 0 30px #ff2f4b;
+
+  animation: appear 2s ease;
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#question-page button {
+    position: relative;
+    left: 100px;
+    font-size:200%;
+    top:-200px;
+    color:#ff8bac;
+    border-radius: 20%;
+    
+}
+
+html, body {
+    margin: 0;
+    min-height: 100%;
+}
+
+#letter-page {
+    width: 100%;
+    min-height: 100vh;
+
+    background-image: url("фон.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+}
+
+#letter-page h1 {
+
+position: relative;
+top:10px;
+left:100px;
+
+    color: #dc6b8b;
+
+    text-shadow:
+        0 0 5px #ff8bac,
+        0 0 15px #f45e88,
+        0 0 30px #ff2f4b;
+
+  animation: appear 2s ease;
+  
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.letter {
+    max-width: 750px;
+    width: 90%;
+
+    margin: 0 auto;
+    padding: 40px;
+
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 20px;
+
+    color: #382532;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.letter h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.letter p {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+#letter-page button {
+    position: relative;
+    left:1100px;
+    top:-100px
+}
+
+#secret-page {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 30px;
+
+    background: linear-gradient(
+        135deg,
+        #160f20,
+        #32172b,
+        #160f20
+    );
+}
+
