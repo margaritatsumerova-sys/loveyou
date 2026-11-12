@@ -262,3 +262,11 @@ left:100px;
     );
 }
 
+#message-page img {
+    position: relative;
+    width:80%;
+    top:100px;
+    left:130px;
+    border-radius: 10%;
+}
+
